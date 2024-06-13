@@ -1,0 +1,61 @@
+/*fonts links*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*fonts links*/
+/*font-family: "Poppins", sans-serif;*/
+
+/*global*/
+ :root{
+ 	--teal:#1a9e9e;
+ 	--white:white;
+ 	--indigo:#093145;
+
+
+ 	--pop:"Poppins", sans-serif;
+
+
+ 	--20:20px;
+ 	--50:50px;
+
+
+ 	--400p:400;
+ 	--500p:500;
+ 	--700p:700;
+
+ 	--pad:5px;
+
+ }
+
+/* global*/
+body{
+	background-color: var(--indigo);
+	font-family: var(--pop);
+}
+/*global*/
+.box h1{
+	font-size: var(--50);
+	font-weight: var(--700p);
+	color:var(--teal);
+	text-align: center;
+	border: 2px solid var(--teal);
+	padding:var(--pad);
+}
+/*global*/
+.box p{
+	font-size:var(--20);
+	font-weight:var(--500p);
+	color: var(--white);
+	text-align:center;
+}
+/*local*/
+.box h2{
+	--font-size: 50px;
+	font-size: var(--font-size);
+	color: var(--white);
+	text-align: center;
+}
+/*global but locally changed*/
+.box h3{
+	--teal:#12CBC4;
+	color: var(--teal);
+	text-align: center;
+}
