@@ -1,2 +1,2 @@
 # css_variables
-assignment
+https://mushafiur.github.io/css_variables/
